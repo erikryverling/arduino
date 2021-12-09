@@ -40,6 +40,6 @@ void loop() {
  
   lcd.setCursor(0, 1);
 
-  sprintf(buffer, "HMD: %d %%", round(humidity));
+  sprintf(buffer, "HMD:  %d %%", round(humidity));
   lcd.print(buffer);
 }
